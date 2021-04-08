@@ -58,11 +58,11 @@ $source = implode(' - ',$_GET);
 				</a>
 
 				<div class="navbar__icon">
-					<a class="header__hotline" href="tel:1900 23 24 27">
+					<a class="header__hotline" data-index="6">
 						<div class="header__hotline-main">
-							<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-								<path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
-							</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+						<path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+					</svg>
 						</div>
 						<span>LIÊN HỆ</span>
 					</a>
@@ -92,10 +92,10 @@ $source = implode(' - ',$_GET);
 						<a class="nav-link" data-index="4">Tiện ích</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" data-index="6">Sản phẩm</a>
+						<a class="nav-link" data-index="5">Sản phẩm</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" data-index="7">Liên hệ</a>
+						<a class="nav-link" data-index="6">Liên hệ</a>
 					</li>
 				</ul>
 				<!-- <button class="navbar__close" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -274,7 +274,7 @@ $source = implode(' - ',$_GET);
 	</div>
 
 
-	<div class="s-premium-6 section" id="section5">
+	<div class="s-premium-6 section" id="section4">
 		<div class="section-wrapper">
 			<div class="container">
 				<div class="s-premium-6__header text-center">
@@ -372,7 +372,7 @@ $source = implode(' - ',$_GET);
 		</div>
 	</div>
 
-	<div class="products section" id="section6">
+	<div class="products section" id="section5">
 		<div class="section-wrapper">
 			<div class="container">
 				<div class="products__header text-center wow-5 zoomInUp"  data-wow-duration="2s">
@@ -430,7 +430,7 @@ $source = implode(' - ',$_GET);
 	
 
 	<!-- contact section -->
-	<div class="s-premium-contact section" id="section7">
+	<div class="s-premium-contact section" id="section6">
 		<div class="content-main">
 			<form class="s-premium-contact__content contact__content">
 				<!-- <div class="s-premium-contact__logo">
@@ -478,6 +478,22 @@ $source = implode(' - ',$_GET);
 		</div>
 	</div>
 </div>
+
+<div class="call-now-button">
+			<div>
+				<p class="call-text"> <b>Gọi Ngay!</b> </p>
+				<a href="tel:1900 23 24 27" title="Call Now">
+				<div class="quick-alo-ph-circle active"></div>
+				<div class="quick-alo-ph-circle-fill active"></div>
+				<div class="quick-alo-phone-img-circle shake">
+				<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
+							</svg>
+				</div>
+				</a>
+			</div>
+		</div>
+
 
 <!-- scroll top top -->
 <!-- <div class="scroll-to-top">
