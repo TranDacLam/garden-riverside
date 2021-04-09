@@ -21,6 +21,10 @@
 
     <?php wp_head(); ?>
 
+    <script>
+        let THEME_URL = "<?php echo THEME_URL ?>";
+    </script>
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -29,9 +33,24 @@
     })(window,document,'script','dataLayer','GTM-N32MKLM');</script>
     <!-- End Google Tag Manager -->
 
+    <!-- Admicro Tag Manager -->
+    <script> (function(a, b, d, c, e) { a[c] = a[c] || [];
+    a[c].push({ "atm.start": (new Date).getTime(), event: "atm.js" });
+    a = b.getElementsByTagName(d)[0]; b = b.createElement(d); b.async = !0;
+    b.src = "//deqik.com/tag/corejs/" + e + ".js"; a.parentNode.insertBefore(b, a)
+    })(window, document, "script", "atmDataLayer", "ATMQCBQ7QJT7Q");</script>
+    <!-- End Admicro Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Ads: 695702049 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-695702049"></script>
     <script>
-        let THEME_URL = "<?php echo THEME_URL ?>";
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-695702049');
     </script>
+    
 </head>
 
 <body <?php body_class(); ?>>
