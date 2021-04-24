@@ -1500,6 +1500,20 @@
 	text-align: center;
 }
 
+.messenger-button{
+	z-index: 9999;
+	clear: both;
+	margin: 0 auto;
+	position: fixed;
+	border-radius: 50px;
+	background: #fff;
+	bottom: 4%;
+	right: 5%;
+	img{
+		animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	}
+}
+
 .call-now-button{
 	z-index: 9999;
 	clear: both;

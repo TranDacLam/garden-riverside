@@ -493,6 +493,11 @@ $source = implode(' - ',$_GET);
 				</a>
 			</div>
 		</div>
+<div class="messenger-button">
+	<a href="https://www.facebook.com/messages/t/111123637720799" target="_blank" title="Messenger">
+		<img src="<?php echo THEME_URL  ?>/assets/images/icon-messenger.png" />
+	</a>
+</div>
 
 
 <!-- scroll top top -->
